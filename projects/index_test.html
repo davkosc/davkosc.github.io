@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>David Kosciulek</title>
+
+        <style>
+            @import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+            body {
+                font-family: "Lato", sans-serif;
+                margin: 0;
+            }
+            a {
+                text-decoration: none;
+                color: #000;
+            }
+            a:hover {
+                color: rgb(179, 179, 179);
+            }
+            .site-header {
+                border-bottom: 1px solid #ccc;
+                padding: 0.5em 1em;
+                display: flex;
+                justify-content: space-between;
+            }
+            .site-identity h1 {
+                font-size: 1.5em;
+                margin: 0.6em 0;
+            display: inline-block;
+            }
+            .site-navigation ul,
+            .site-navigation li {
+                margin: 0;
+                padding: 0;
+            }
+            .site-navigation li {
+                display: inline-block;
+                margin: 1.4em 1em 1em 1em;
+            }
+            .content {padding:20px
+            }
+            .responsive {
+              max-width: 100%;
+              height: auto;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="site-header">
+            <div class="site-identity">
+                <h1>David Kosciulek</h1>
+            </div>
+            <nav class="site-navigation">
+                <ul class="nav">
+                    <li><a href="https://davkosc.github.io/index.html">Home</a></li>
+                    <li><a href="https://davkosc.github.io/work-and-education/index.html">Work and Education</a></li>
+                    <li><a href="https://davkosc.github.io/projects/index.html">Projects</a></li>
+                </ul>
+            </nav>
+        </header>
+       
+        <div class="content">
+        <h2>Projects</h2>
+        
+        <center>
+            <h2>Ijams Nature Center Trail Map</h2>
+            <div class="text" style="word-wrap: break-word; max-width: auto">
+            <p>A trail map created with on-the-ground GPS observations and visualized with QGIS. The raster terrain layer was developed with DEM files from the State of Tennessee LiDAR Coverage Map.</p>
+            </div>
+            <img src="inc_map_2023.jpg" alt="INC Trail Map" class = "responsive">
+            
+            <h2>As Eaten On TV - Undergraduate Honors Thesis</h2>
+            <p>An investigation into the rise of commercial agriculture, food marketing, and the globalization of how we eat.</p>
+            <object
+              data="As Eaten On TV - Honors Thesis.pdf"
+              type="application/pdf"
+              width="800px"
+              height="600px"
+            ></object> 
+            <h2>Ball State University 2016 Sustainability Report</h2>
+                <p>Contributed narrative and data insights to the university's report following the Global Reporting Initiative Standards.</p>
+            <img src="bsu_gri_energy.png" alt="BSU FY2016 non-renewable energy usage" class = "responsive">
+                <p>Please view the full report <a href="http://www.bsuceres.org/GRI/100218GRIReport2016.pdf">here.</a></p>
+        </center>    
+        </div>
+
+    <style>
+    footer {
+        bottom: 0;
+        width: 100%;
+        left: 0;
+        font-size: medium;  
+        border-top: 1px solid #ccc; 
+        padding: 0.5em 1em;
+        display: flex;
+        justify-content: space-between;    
+        }    
+    </style>
+    <footer>
+    <p>David Kosciulek, 2023  &nbsp;|&nbsp;  
+    <a href="mailto: davkosc@gmail.com">davkosc@gmail.com</a>  &nbsp;|&nbsp;  
+    <a href="https://www.linkedin.com/in/davkosc">LinkedIn</a>
+    </p>
+    </footer>
+    </body>
+</html>
